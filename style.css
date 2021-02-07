@@ -1,0 +1,110 @@
+body {
+	background-color: #CAF7E2;
+	color: #58B09C;
+	font-family: courier;
+	font-size: 16px;
+	line-height: 1.6;
+  	letter-spacing: 2px;
+  	font-weight: 150; /*100-900*/
+
+}
+
+h1, h2, h3 {
+	font-family: Nunito;
+	letter-spacing: 3px
+}
+
+h1 {
+	font-size: 40px;
+	color: #386150;
+	font-weight: medium;
+}
+
+h2 {
+	font-size: 25px;
+	color: #386150;
+	font-weight: medium;
+}
+
+h3 {
+	color: #32161F;
+	font-size: 25px;
+	font-weight: medium;
+}
+
+a { 
+	text-decoration: none; /*get rid of text underlinement*/ 
+	color: #32161F;
+
+}
+
+a:hover {
+	color: #775B59;
+}
+
+p {
+	text-justify: center; /*ceneterd paragraph alignednwith text align =justifu will just justify*/
+}
+
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white { /* select all elements with the class="img-circle" */
+  margin: 10px auto;
+  background: #FFFBFF;
+  width: 900px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 900px;
+  text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+  .btn-green {
+  	background: #32161F; 
+  	color: white;
+  	padding: 10px 15px;
+  	border-radius: 10px;
+  }
+
+ .list-inline { 
+ 		list-style: none;
+ 		padding-left: 0px;
+  }
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #386150;
+}
+
+#introduction p {
+	margin: 40px;
+}
+
+@media (max-width: 960px) 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
